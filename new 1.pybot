@@ -1,0 +1,18 @@
+*** Settings ***
+
+
+*** Variables ***
+
+${a}    10
+${b}    20
+
+*** Test Cases ***
+
+test1
+
+    log   ${a}
+	log   ${b}
+
+
+***Keywords***
+
